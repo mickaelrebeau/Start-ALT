@@ -1,0 +1,31 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plans div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+}

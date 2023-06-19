@@ -1,0 +1,80 @@
+.header {
+    background-color: #74C69D;
+  
+    padding: 0 10em;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.header-text {
+    width: 50%;
+  
+    padding: 2em 24em 2em 0em;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+  
+.header-text h2 {
+    margin: 0;
+  
+    color: white;
+    font-size: 1.8rem;
+    letter-spacing: .3em;
+    font-weight: 400;
+}
+  
+.header-text h1 {
+    margin: .5em 0;
+  
+    color: white;
+    font-size: 2.8rem;
+  
+}
+  
+.header-text p {
+    margin: 0;
+    color: rgba(255, 255, 255, .8);
+    font-size: 1.3rem;
+}
+  
+.header-text button {
+    margin-top: 1.5em;
+    padding: 1em 4em;
+    border: none;
+    border-radius: 5px;
+  
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email,
+.security {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

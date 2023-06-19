@@ -1,0 +1,40 @@
+:root {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #74C69D;
+
+  padding: 2em 10em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.navbar div a {
+  text-decoration: none;
+  color: white;
+  padding: .8em;
+  font-size: 1.5rem;
+}
+
+.nav-active {
+  border-bottom: 2px solid #ffffff;
+  border-radius: 8%;
+}
+
+footer {
+  background-color: #74C69D;
+
+  padding: 2em 10em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer p {
+  color: white;
+  font-size: 1.2rem;
+}
