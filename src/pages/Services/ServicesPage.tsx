@@ -42,7 +42,7 @@ export default function ServicesPage() {
                         <p>Lorem ipsum, dolor sit </p>
                     </div>
                 </div>
-                <button>Learn More</button>
+                <button className='more'>Learn More</button>
             </div>
             <div>
                 <h2>Plus</h2>
@@ -72,7 +72,7 @@ export default function ServicesPage() {
                         <p>Lorem ipsum, dolor sit </p>
                     </div>
                 </div>
-                <button>Learn More</button>
+                <button className='more'>Learn More</button>
             </div>
             <div>
                 <h2>Pro</h2>
@@ -102,7 +102,7 @@ export default function ServicesPage() {
                         <p>Lorem ipsum, dolor sit </p>
                     </div>
                 </div>
-                <button>Learn More</button>
+                <button className='more'>Learn More</button>
             </div>
         </section>
     </>

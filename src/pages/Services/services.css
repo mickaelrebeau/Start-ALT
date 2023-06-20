@@ -3,29 +3,94 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    margin: 2em 0;
+}
+
+.services h2 {
+    margin: 0;
+
+    color: #74C69D;
+    font-size: 1.1rem;
+    letter-spacing: .3em;
+    font-weight: 600;
+}
+
+.services p {
+    font-size: 1.2rem;
 }
 
 .plans {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    margin: 2em 0;
 }
 
-.plans div {
+.plans > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    width: 350px;
+    margin: 0 2em;
+    padding: 3em 0;
+
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, .2);
+}
+
+.plans > div h2 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.plans > div h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.plans > div > p {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 0 2em;
+    color: rgba(0, 0, 0, .5);
+}
+
+span {
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 .check-list {
+    width: 100%;
+    padding: 0 2em;
+    margin-left: 6em;
+
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .check {
     display: flex;
     align-items: center;
+}
+
+.check p {
+    margin-left: 1em;
+}
+
+.more {
+    padding: 0.6em 1.6em;
+    margin-top: 2em;
+
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: black;
 }

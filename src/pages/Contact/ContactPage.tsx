@@ -13,20 +13,18 @@ export default function ContactPage() {
         </div>
 
         <section className='contact-form'>
-            <div>
-                <form action="">
-                    <label htmlFor="name">Name</label>
-                    <input type="text" value='name' name='name' />
+            <form action="">
+                <label htmlFor="name">Name</label>
+                <input type="text" name='name' />
 
-                    <label htmlFor="email">Email</label>
-                    <input type="text" value='email' name='email' />
+                <label htmlFor="email">Email</label>
+                <input type="text" name='email' />
 
-                    <label htmlFor="message">Message</label>
-                    <input type="textarea" value='message' name='message'/>
+                <label htmlFor="message">Message</label>
+                <input type="textarea" name='message' className='textarea'/>
 
-                    <button>Submit</button>
-                </form>
-            </div>
+                <button className='submit'>Submit</button>
+            </form>
             <div>
                 <img src={map} alt="" />
             </div>
