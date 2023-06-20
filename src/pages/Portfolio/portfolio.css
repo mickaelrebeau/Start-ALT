@@ -3,6 +3,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    padding: 2em 0;
+}
+
+.portfolio h2 {
+    margin: 0;
+
+    color: #74C69D;
+    font-size: 1.1rem;
+    letter-spacing: .3em;
+    font-weight: 600;
+}
+
+.portfolio h3 {
+    font-size: 2rem; 
+}
+
+.portfolio p {
+    font-size: 1.3rem;
 }
 
 .portfolio-grid {
@@ -10,6 +29,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    margin: 6em 0;
 }
 
 .grid {
@@ -23,4 +44,15 @@
     grid-template-columns: repeat(2, 600px);
     grid-template-rows: repeat(4, 1fr) ;
     gap: 1em;
+}
+
+.button {
+    margin-top: 1em;
+    padding: 0.7em 1.7em;
+
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
 }

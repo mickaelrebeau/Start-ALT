@@ -27,35 +27,35 @@ export default function HomePage() {
             </section>
 
             <section className='partners'>
-                <h2>Partners</h2>
+                <h2>PARTNERS</h2>
                 <h3>Lorem Ipsum Dolor</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div>
                     <img src={partners} alt=""/>
                 </div>
-                <button>Learn More</button>
+                <button className='learn'>Learn More</button>
             </section>
 
             <section className='email'>
                 <div>
                     <img src={email} alt="" />
                 </div>
-                <div>
+                <div className='card-text'>
                     <h2>Lorem ipsum dolor sit amet consectetur </h2>
                     <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
                     </p>
-                    <button>Learn More</button>
+                    <button className='learn'>Learn More</button>
                 </div>
             </section>
 
             <section className='security'>
-                <div>
+                <div className='card-text'>
                     <h2>Lorem ipsum dolor sit amet consectetur </h2>
                     <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?
                     </p>
-                    <button>Learn More</button>
+                    <button className='learn'>Learn More</button>
                 </div>
                 <div>
                     <img src={security} alt="" />
@@ -91,7 +91,7 @@ export default function HomePage() {
                         <p>DEVELOPER</p>
                     </div>
                 </div>
-                <button>View Team</button>
+                <button className='learn'>View Team</button>
             </section>
         </main>
     </>

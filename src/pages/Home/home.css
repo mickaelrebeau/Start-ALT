@@ -11,7 +11,7 @@
 .header-text {
     width: 50%;
   
-    padding: 2em 24em 2em 0em;
+    padding: 2em 12em 2em 0em;
   
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
     margin: 0;
   
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     letter-spacing: .3em;
     font-weight: 400;
 }
@@ -32,23 +32,25 @@
     margin: .5em 0;
   
     color: white;
-    font-size: 2.8rem;
+    font-size: 2rem;
+
+    line-height: 1.3em;
   
 }
   
 .header-text p {
     margin: 0;
     color: rgba(255, 255, 255, .8);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
   
 .header-text button {
     margin-top: 1.5em;
-    padding: 1em 4em;
+    padding: .8em 3em;
     border: none;
     border-radius: 5px;
   
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 600;
 }
 
@@ -57,6 +59,33 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    padding: 5em 0;
+}
+
+.partners h2,
+.team > h2 {
+    margin: 0;
+
+    color: #74C69D;
+    font-size: 1.1rem;
+    letter-spacing: .3em;
+    font-weight: 600;
+}
+
+.partners h3,
+.card-text h2,
+.team h3 {
+   font-size: 2rem; 
+}
+
+.partners p,
+.team p {
+    font-size: 1.3rem;
+}
+
+.partners div {
+    margin: 3em 0;
 }
 
 .email,
@@ -64,17 +93,64 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    padding: 2em;
+}
+
+.card-text {
+    width: 800px;
+    padding: 8em;
+}
+
+.card-text p {
+    font-size: 1.3rem;
+
+    padding: 1em 0;
+    padding-right: 2em;
+
+    color: rgba(0, 0, 0, .6);
 }
 
 .team {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
+    
+    padding: 3em 0;
 }
 
 .card {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    margin: 3em 0;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+
+    margin: 0 2em;
+    padding: 0 2em;
+
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, .2);
+}
+
+.card div img {
+    margin: .8em 1em;
+}
+
+.learn {
+    padding: 0.7em 1.7em;
+
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
 }

@@ -33,7 +33,7 @@ export default function PortfolioPage() {
                     <img src={reality} alt="" />
                 </div>
             </div>
-            <button>Learn More</button>
+            <button className='button'>Learn More</button>
         </section>
     </>
     )
